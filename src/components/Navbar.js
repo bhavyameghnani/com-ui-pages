@@ -19,7 +19,7 @@ const Navbar = () => {
             sx={{ marginRight: 2, width: "100px", height: "auto" }}
           />
           <Typography variant="h6" component="div" sx={{ color: "#FFFFFF" }}>
-            Compliance Co-pilot
+            Co-pilot
           </Typography>
         </Box>
         <Box sx={{ display: "flex", gap: 2 }}>
