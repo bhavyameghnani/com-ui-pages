@@ -5,6 +5,8 @@ import FollowUpTab from "./FollowUpTab";
 import SmartResponsesTab from "./SmartResponsesTab";
 import DailyShotsTab from "./DailyShotsTab";
 import PolicySOPDraftingTab from "./PolicySOPDraftingTab";
+import ChatbotTab from "./ChatbotTab";
+import AdminTab from "./AdminTab";
 
 const NavTabs = () => {
   const [value, setValue] = useState(0);
@@ -20,12 +22,16 @@ const NavTabs = () => {
         <Tab label="Smart Responses" />
         <Tab label="Daily Shots" />
         <Tab label="Policy & SOP Smart Drafting" />
+        <Tab label="Chatbot" />
+        <Tab label="Admin" />
       </Tabs>
       <Box sx={{ p: 3 }}>
         {value === 0 && <FollowUpTab />}
         {value === 1 && <SmartResponsesTab />}
         {value === 2 && <DailyShotsTab />}
         {value === 3 && <PolicySOPDraftingTab />}
+        {value === 4 && <ChatbotTab />}
+        {value === 5 && <AdminTab />}
       </Box>
     </Box>
   );

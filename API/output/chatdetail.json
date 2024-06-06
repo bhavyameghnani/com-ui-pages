@@ -1,0 +1,18 @@
+[
+    {
+        "query": "hello",
+        "reply": "Hi there! How can I assist you today?"
+    },
+    {
+        "query": "compliance",
+        "reply": "Compliance ensures that a company follows all laws and regulations."
+    },
+    {
+        "query": "policy",
+        "reply": "Our policies are designed to maintain the highest standards of integrity."
+    },
+    {
+        "query": "Not sure",
+        "reply": "I'm not sure how to respond to that. Can you please clarify?"
+    }
+]
